@@ -1,22 +1,32 @@
-🏠 Kathmandu House Price Prediction
-This is a web-based application that predicts the price of a house in Kathmandu based on user input such as location, area (sqft), number of BHKs, bathrooms, and floor.
+# 🏠 Kathmandu House Price Prediction
 
-📌 Features
-Predicts home prices using a trained machine learning model.
+A web application that predicts the price of a house in Kathmandu based on location, area (in sqft), number of BHKs, bathrooms, and floor number.
 
-User-friendly UI with modern design (glassmorphism aesthetic).
+---
 
-Dynamic location list fetched from backend.
+## 🚀 Features
 
-Built using Flask (backend) and vanilla HTML/CSS/JS (frontend).
+- 🔍 Predicts home prices using a trained machine learning model.
+- 🌐 Modern, responsive UI with glassmorphism design.
+- 📍 Dynamically fetches locations from the backend.
+- 💡 Built using Flask, HTML, CSS, and JavaScript.
 
-🔧 Tech Stack
-Layer	Technologies Used
-Frontend	HTML, CSS, JavaScript
-Backend	Python, Flask
-Model	Scikit-learn (trained on housing dataset)
-Data	JSON for columns, Pickle for model
+---
 
+## 🧰 Tech Stack
 
-Uses Lasso Regression (can be upgraded to more complex models).
-Encodes location as one-hot vector.
+**Frontend:**
+- HTML
+- CSS (Modern design)
+- JavaScript (vanilla)
+
+**Backend:**
+- Python
+- Flask
+
+**Machine Learning:**
+- Scikit-learn
+- Numpy
+- Pickle
+
+---
