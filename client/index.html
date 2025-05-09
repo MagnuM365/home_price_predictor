@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Price Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Area (Square Feet)</h2>
+        <input type="number" id="uiSqft" value="1000">
+
+        <h2>BHK</h2>
+        <input type="number" id="uiBHK" min="1" max="10" value="2">
+
+        <h2>Bath</h2>
+        <input type="number" id="uiBathrooms" min="1" max="10" value="2">
+
+        <h2>Floor</h2>
+        <input type="number" id="uiFloor" min="1" max="100" value="1">
+
+        <h2>Location</h2>
+        <select id="uiLocations">
+            <option disabled selected>Loading...</option>
+        </select>
+
+        <button onclick="onClickedEstimatePrice()">Estimate Price</button>
+        <div id="uiEstimatedPrice" class="result"><h2></h2></div>
+    </div>
+</body>
+</html>
